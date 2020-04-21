@@ -27,3 +27,17 @@ The datasets are from Storm Events Database of National Centers for Environmenta
 storm_events.ipynb: Jupyter notebook for EDA of storm events
 
 Storm-Data-Export-Format.pdf: Explanation of data format and field names
+
+### Results<a name="results"></a>
+The storm events datasets from 2010 to 2019 are downloaded from NCEI database. 
+The datasets are concatenated into a dataframe.
+There are 56 storm event types. 
+The datasets contain direct and indirect fatalities, and property damage in K, M, and B (thousand, million, billion dollars).
+
+The five most frequent events are thunderstorm wind, hail, winter weather, flash flood, and drought.
+
+The storm events that caused the most total fatalities are tornado, excessive heat, heat, flash flood, and winter weather. 
+
+The events that caused the most direct fatalities are tornado, flash flood, excessive heat, heat, and rip current. 
+
+The events that caused the most property damage are flash flood, wildfire, flood, tornado, and costal flood. 
