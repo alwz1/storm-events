@@ -28,6 +28,8 @@ storm_events.ipynb: Jupyter notebook for EDA of storm events
 
 Storm-Data-Export-Format.pdf: Explanation of data format and field names
 
+LICENSE.txt: MIT License
+
 ### Results<a name="results"></a>
 The storm events datasets from 2010 to 2019 are downloaded from NCEI database. 
 The datasets are concatenated into a dataframe.
