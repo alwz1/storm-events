@@ -39,5 +39,7 @@ The five most frequent events are thunderstorm wind, hail, winter weather, flash
 The storm events that caused the most total fatalities are tornado, excessive heat, heat, flash flood, and winter weather. 
 
 The events that caused the most direct fatalities are tornado, flash flood, excessive heat, heat, and rip current. 
+Tornado caused the direct fatalities of 553 in 2011, and flash flood caused the direct fatalities of 142 in 2015.
 
 The events that caused the most property damage are flash flood, wildfire, flood, tornado, and costal flood. 
+Flash flood caused the property damage of more than 63 billion dollars in 2017, and wildfire caused the property damage of more than 18 billion dollars in 2018. Costal flood in 2012 caused the property damage of more than 21 billion dollars.
