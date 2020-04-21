@@ -24,4 +24,6 @@ The datasets are from Storm Events Database of National Centers for Environmenta
 4. Which storm events caused the most property damage and what are the yearly property damage? 
 
 ### File Descriptions<a name="file_descriptions"></a>
-storm_events.ipynb : Jupyter notebook for EDA of storm events
+storm_events.ipynb: Jupyter notebook for EDA of storm events
+
+Storm-Data-Export-Format.pdf: Explanation of data format and field names
