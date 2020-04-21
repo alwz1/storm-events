@@ -47,3 +47,4 @@ The events that caused the most property damage are flash flood, wildfire, flood
 Flash flood caused the property damage of more than 63 billion dollars in 2017, and wildfire caused the property damage of more than 18 billion dollars in 2018. Costal flood in 2012 caused the property damage of more than 21 billion dollars.
 
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
+MIT License
