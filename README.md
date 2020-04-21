@@ -5,3 +5,8 @@
 3. [File Descriptions](#file_descriptions)
 4. [Results](#results)
 5. [Licensing, Authors, Acknowledgements](#licensing)
+
+### Installations<a name="installations"></a>
+Standard libraries installed with the Anaconda distribution.
+
+python 3.7.4
