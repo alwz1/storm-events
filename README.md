@@ -17,6 +17,8 @@ The datasets are from Storm Events Database of National Centers for Environmenta
 
 1. Which storm events occured most frequently?
 
-2. Which storm events caused the most direct fatalities and what are the yearly fatalities? 
+2. Which storm events caused the most total fatalities?
 
-3. Which storm events caused the most property damage and what are the yearly property damage? 
+3. Which storm events caused the most direct fatalities and what are the yearly fatalities? 
+
+4. Which storm events caused the most property damage and what are the yearly property damage? 
