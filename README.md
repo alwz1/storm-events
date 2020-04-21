@@ -12,7 +12,7 @@ Standard libraries installed with the Anaconda distribution.
 python 3.7.4
 
 ### Project Motivation<a name="project_motivation"></a>
-Exploratory data analysis (EDA) of storm events from 2010 to 2019.
+Exploratory data analysis of storm events from 2010 to 2019.
 The datasets are from Storm Events Database of National Centers for Environmental Information (NCEI).
 
 1. Which storm events occured most frequently?
