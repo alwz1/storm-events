@@ -34,15 +34,12 @@ The datasets are concatenated into a dataframe.
 There are 56 storm event types. 
 The datasets contain direct and indirect fatalities, and property damage in K, M, and B (thousand, million, billion dollars).
 
-The five most frequent events are thunderstorm wind, hail, winter weather, flash flood, and drought.
+The top five storm types for direct fatalities are tornado, flash flood, excessive heat, heat, and rip current. Tornados in 2011 caused the direct deaths of 553.
 
-The storm events that caused the most total fatalities are tornado, excessive heat, heat, flash flood, and winter weather. 
+The list of top five storm events for total fatality are tornado, excessive heat, heat, flash flood, and winter weather. This list is slightly different from the direct fatality list because winter weather storm events caused significant indirect fatalities. 
 
-The events that caused the most direct fatalities are tornado, flash flood, excessive heat, heat, and rip current. 
-Tornado caused the direct fatalities of 553 in 2011, and flash flood caused the direct fatalities of 142 in 2015.
+Flash flood caused the most property damage followed by wildfire, flood, tornado, and coastal flood. Flash flood caused more than sixty-three billion dollars in property damage in 2017.
 
-The events that caused the most property damage are flash flood, wildfire, flood, tornado, and costal flood. 
-Flash flood caused the property damage of more than 63 billion dollars in 2017, and wildfire caused the property damage of more than 18 billion dollars in 2018. Costal flood in 2012 caused the property damage of more than 21 billion dollars.
 
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
 MIT License
