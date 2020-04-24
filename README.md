@@ -34,7 +34,7 @@ The datasets are concatenated into a dataframe.
 There are 56 storm event types. 
 The datasets contain direct and indirect fatalities, and property damage in K, M, and B (thousand, million, billion dollars).
 
-The top five storm types for direct fatalities are tornado, flash flood, excessive heat, heat, and rip current. Tornados in 2011 caused the direct deaths of 553.
+The top five storm types for direct fatalities are tornado, flash flood, excessive heat, heat, and rip current. The peak direct fatality of 858 occurred in 2011, and 553 of them are caused by tornados.
 
 The list of top five storm events for total fatality are tornado, excessive heat, heat, flash flood, and winter weather. This list is slightly different from the direct fatality list because winter weather storm events caused significant indirect fatalities. 
 
