@@ -29,9 +29,12 @@ Storm-Data-Export-Format.pdf: Explanation of data format and field names
 LICENSE.txt: MIT License
 
 ### Results<a name="results"></a>
-The storm events datasets from 2010 to 2019 are downloaded from NCEI database. 
-The datasets are concatenated into a dataframe.
-There are 56 storm event types. 
+The storm events datasets from 2010 to 2019 are downloaded from NCEI database. These csv files are then read and  concatenated into a  pandas data frame. Each yearly dataset contains about 63000 rows and 51 columns. For this project eight features are selected to analyze fatality and damage property. The feature ‘EVENT_ID’ is used to make sure that duplicate events are not included in the analysis. There are 56 storm types. I first checked which types occurred most frequently, and found thunderstorm wind, hail, winter weather, flash flood, and drought to be the five most frequent events. However, these most frequently occurring events are not necessarily the most impactful in terms of fatality and property damage. 
+
+
+
+
+
 The datasets contain direct and indirect fatalities, and property damage in K, M, and B (thousand, million, billion dollars).
 
 The top five storm types for direct fatalities are tornado, flash flood, excessive heat, heat, and rip current. The peak direct fatality of 858 occurred in 2011, and 553 of them are caused by tornados.
