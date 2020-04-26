@@ -31,6 +31,9 @@ LICENSE.txt: MIT License
 ### Results<a name="results"></a>
 The storm events datasets from 2010 to 2019 are downloaded from NCEI database. These csv files are then read and  concatenated into a  pandas data frame. Each yearly dataset contains about 63000 rows and 51 columns. For this project eight features are selected to analyze fatality and damage property. The feature ‘EVENT_ID’ is used to make sure that duplicate events are not included in the analysis. There are 56 storm types. I first checked which types occurred most frequently, and found thunderstorm wind, hail, winter weather, flash flood, and drought to be the five most frequent events. However, these most frequently occurring events are not necessarily the most impactful in terms of fatality and property damage. 
 
+Next, I analyzed the fatality. The datasets contains direct and indirect fatality by the storm events. There are no missing values for the fatality in the datasets. To help with the analysis, I created a function called ‘fatality’ that takes a column’s name and returns direct, indirect and total fatality grouped by that column’s name. For example fatality(‘EVENT_TYPE’) returns direct, indirect, and total fatality grouped by EVENT_TYPE. 
+
+
 
 
 
