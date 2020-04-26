@@ -35,6 +35,9 @@ I first checked which types occurred most frequently, and found thunderstorm win
 
 Next, I analyzed the fatality. The datasets contains direct and indirect fatality by the storm events. There are no missing values for the fatality in the datasets. To help with the analysis, I created a function called ‘fatality’ that takes a column’s name and returns direct, indirect and total fatality grouped by that column’s name. For example fatality(‘EVENT_TYPE’) returns direct, indirect, and total fatality grouped by EVENT_TYPE. 
 
+The top five storm types that cause the most direct fatality are tornado, flash flood, excessive heat, heat, and rip current. The peak direct fatality of 858 occurred in 2011, and 553 of them are caused by tornados. The cumulative percentages of direct fatality are calculated to create a Pareto chart. It is found that these five storm types account for about 60% of direct fatality by all storm events. 
+
+
 
 
 
