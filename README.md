@@ -45,7 +45,7 @@ About 18% of property damage values were missing. The median of property damage 
 
 There were 36 storm events that caused one billion dollars or more in property damage. The total property damage caused by these 36 storms was 115.75 billion dollars which is 53% of total property damage by all storm events. 
 
-The top five storm types that caused the most property damage are <b>flash flood, wildfire, flood, tornado, and coastal flood</b>. These storm types caused about 75% of total property damage by all storm types. Flash flood caused more than sixty-three billion dollars in property damage in 2017.
+The top five storm types that caused the most <b>property damage</b> are <b>flash flood, wildfire, flood, tornado, and coastal flood</b>. These storm types caused about 75% of total property damage by all storm types. Flash flood caused more than sixty-three billion dollars in property damage in 2017 alone.
 
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
 MIT License
