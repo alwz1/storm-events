@@ -41,9 +41,9 @@ Storm events have significant indirect fatality. For example, winter weather has
 
 Next I analyzed the property damage. The property damage are given in K, M or B: 10.00K = $10,000; 10.00M = $10,000,000, and etc. I created a function that converted these strings into numeric property damage in billions by using a dictionary and casting the strings into floats. 
 
-About 18% of property damage values were missing. The median of property damage for each of 56 storm event types was first computed, and the missing values were imputed with the corresponding median values. The medians were used instead of the means because there were great outliers for many of these storm types. For example the median of the property damage for flash flash is zero while the maximum is 10 billion. 
+About 18% of property damage values are missing. The median of property damage for each of 56 storm event types is first computed, and the missing values are imputed with the corresponding median values. The medians are used instead of the means because there are great outliers for many of these storm types. For example the median of the property damage for flash flash is zero while the maximum is 10 billion. 
 
-There were 36 storm events that caused one billion dollars or more in property damage. The total property damage caused by these 36 storms was 115.75 billion dollars which is 53% of total property damage by all storm events. 
+There are 36 storm events that caused one billion dollars or more in property damage. The total property damage caused by these 36 storms is 115.75 billion dollars which is 53% of total property damage by all storm events. 
 
 The top five storm types that caused the most <b>property damage</b> are <b>flash flood, wildfire, flood, tornado, and coastal flood</b>. These storm types caused about 75% of total property damage by all storm types. Flash flood caused more than sixty-three billion dollars in property damage in 2017 alone.
 
