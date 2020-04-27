@@ -29,17 +29,25 @@ Storm-Data-Export-Format.pdf: Explanation of data format and field names
 LICENSE.txt: MIT License
 
 ### Results<a name="results"></a>
-The storm events datasets from 2010 to 2019 are downloaded from NCEI database. 
-The datasets are concatenated into a dataframe.
-There are 56 storm event types. 
-The datasets contain direct and indirect fatalities, and property damage in K, M, and B (thousand, million, billion dollars).
+The storm events datasets from 2010 to 2019 are downloaded from NCEI database. These csv files are then read and  concatenated into a  pandas data frame. Each yearly dataset contains about 63000 rows and 51 columns. For this project eight features are selected to analyze fatality and damage property. The feature ‘EVENT_ID’ is used to make sure that duplicate events are not included in the analysis. There are 56 storm types. 
 
-The top five storm types for direct fatalities are tornado, flash flood, excessive heat, heat, and rip current. The peak direct fatality of 858 occurred in 2011, and 553 of them are caused by tornados.
+I first checked which types occurred most frequently, and found thunderstorm wind, hail, winter weather, flash flood, and drought to be the five most frequent events. However, these most frequently occurring events are not necessarily the most impactful in terms of fatality and property damage. 
 
-The list of top five storm events for total fatality are tornado, excessive heat, heat, flash flood, and winter weather. This list is slightly different from the direct fatality list because winter weather storm events caused significant indirect fatalities. 
+Next, I analyzed the fatality. The datasets contain direct and indirect fatality by the storm events. There are no missing values for the fatality in the datasets. To help with the analysis, I created a function called ‘fatality’ that takes a column’s name and returns direct, indirect and total fatality grouped by that column’s name. For example fatality(‘EVENT_TYPE’) returns direct, indirect, and total fatality grouped by EVENT_TYPE. 
 
-Flash flood caused the most property damage followed by wildfire, flood, tornado, and coastal flood. Flash flood caused more than sixty-three billion dollars in property damage in 2017.
+The top five storm types that cause the most <b>direct fatality</b> are <b>tornado, flash flood, excessive heat, heat, and rip current</b>. The peak direct fatality of 858 occurred in 2011, and 553 of them are caused by tornados. The median of the yearly direct fatality by tornado is 42. 5. The cumulative percentages of direct fatality are calculated to create a Pareto chart. It is found that these five storm types account for about 60% of direct fatality by all storm events. 
 
+Storm events have significant indirect fatality. For example, winter weather has 56 direct fatalities and 500 indirect fatalities. This is in contrast with rip current that has 489 direct fatalities and 7 indirect fatalities. Because of the difference in indirect fatality, the list of the top five storm types for the <b>total fatality</b> are different from that of direct fatality. They are <b>tornado, excessive heat, heat, flash flood, and winter weather</b>. These storm types account for about 50% of total fatality. 
+
+Next I analyzed the property damage. The property damage are given in K, M or B: 10.00K = $10,000; 10.00M = $10,000,000, and etc. I created a function that converted these strings into numeric property damage in billions by using a dictionary and casting the strings into floats. 
+
+About 18% of property damage values are missing. The median of property damage for each of 56 storm event types is first computed, and the missing values are imputed with the corresponding median values. The medians are used instead of the means because there are great outliers for many of these storm types. For example the median of the property damage for flash flash is zero while the maximum is 10 billion. 
+
+There are 36 storm events that caused one billion dollars or more in property damage. The total property damage caused by these 36 storms is 115.75 billion dollars which is 53% of total property damage by all storm events. 
+
+The top five storm types that caused the most <b>property damage</b> are <b>flash flood, wildfire, flood, tornado, and coastal flood</b>. These storm types caused about 75% of total property damage by all storm types. Flash flood caused more than sixty-three billion dollars in property damage in 2017 alone.
+
+The main observations can be found in a blog [here](https://medium.com/@ayeluwin11/impactful-storms-56f700e8a650?sk=3f5d570595f38328d3380b18c4b4dff0).
 
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
 MIT License
