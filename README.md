@@ -54,6 +54,6 @@ The main observations can be found in a blog [here](https://medium.com/@ayeluwin
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
 MIT License
 
-Storm Events Database from National Centers for Environmental Information. 
+Storm Events Database from National Centers for Environmental Information
 
 The datasets can be found [here](https://www1.ncdc.noaa.gov/pub/data/swdi/stormevents/csvfiles/).
