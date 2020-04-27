@@ -21,6 +21,8 @@ The datasets are from Storm Events Database of National Centers for Environmenta
 
 3. What are the yearly property damages caused by the top 5 storm event types?
 
+4. How many storm events caused the property damage of one billion dollars or more?
+
 ### File Descriptions<a name="file_descriptions"></a>
 storm_events.ipynb: Jupyter notebook for EDA of storm events
 
@@ -52,6 +54,6 @@ The main observations can be found in a blog [here](https://medium.com/@ayeluwin
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
 MIT License
 
-Storm Events Database from National Centers for Environmental Information. 
+Storm Events Database from National Centers for Environmental Information
 
 The datasets can be found [here](https://www1.ncdc.noaa.gov/pub/data/swdi/stormevents/csvfiles/).
