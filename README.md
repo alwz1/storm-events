@@ -49,7 +49,7 @@ There are 36 storm events that caused one billion dollars or more in property da
 
 The top five storm types that caused the most <b>property damage</b> are <b>flash flood, wildfire, flood, tornado, and coastal flood</b>. These storm types caused about 75% of total property damage by all storm types. Flash flood caused more than sixty-three billion dollars in property damage in 2017 alone.
 
-The main observations can be found in a blog [here](https://medium.com/@ayeluwin11/impactful-storms-56f700e8a650?sk=3f5d570595f38328d3380b18c4b4dff0).
+<b>The main observations can be found in a blog</b> [here](https://medium.com/@ayeluwin11/impactful-storms-56f700e8a650?sk=3f5d570595f38328d3380b18c4b4dff0).
 
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
 MIT License
