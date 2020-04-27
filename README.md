@@ -39,14 +39,11 @@ The top five storm types that cause the most direct fatality are tornado, flash 
 
 Storm events have significant indirect fatality. For example, winter weather has 56 direct fatalities and 498 indirect fatalities. This is in contrast with rip current that has 489 direct fatalities and 7 indirect fatalities. Because of the difference in indirect fatality, the list of the top five storm types for the total fatality are different from that of direct fatality. They are tornado, excessive heat, heat, flash flood, and winter weather. These storm types account for about 50% of total fatality. 
 
+Next I analyzed the property damage. The property damage are given in K, M or B: 10.00K = $10,000; 10.00M = $10,000,000, and etc. I created a function that converted these strings into numeric property damage in billions by using a dictionary and casting the strings into floats. 
 
 
 
 
-
-
-
-The datasets contain direct and indirect fatalities, and property damage in K, M, and B (thousand, million, billion dollars).
 
 
 Flash flood caused the most property damage followed by wildfire, flood, tornado, and coastal flood. Flash flood caused more than sixty-three billion dollars in property damage in 2017.
