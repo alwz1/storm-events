@@ -24,11 +24,15 @@ The datasets are from Storm Events Database of National Centers for Environmenta
 4. How many storm events caused the property damage of one billion dollars or more?
 
 ### File Descriptions<a name="file_descriptions"></a>
-storm_events.ipynb: Jupyter notebook for EDA of storm events
+- storm_events.ipynb: Jupyter notebook for EDA of storm events
 
-Storm-Data-Export-Format.pdf: Explanation of data format and field names
+- Storm-Data-Export-Format.pdf: Explanation of data format and field names
 
-LICENSE.txt: MIT License
+- images : graphs and images
+
+
+
+- LICENSE.txt: MIT License
 
 ### Results<a name="results"></a>
 The storm events datasets from 2010 to 2019 are downloaded from NCEI database. These csv files are then read and  concatenated into a  pandas data frame. Each yearly dataset contains about 63000 rows and 51 columns. For this project eight features are selected to analyze fatality and damage property. The feature ‘EVENT_ID’ is used to make sure that duplicate events are not included in the analysis. There are 56 storm types. 
